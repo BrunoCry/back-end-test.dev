@@ -1,0 +1,80 @@
+/* roboto */
+
+@font-face {
+	font-family: 'roboto';
+	src: url(./../fonts/roboto-400.eot);
+	src: url(./../fonts/roboto-400.eot?#iefix) format('embedded-opentype'),
+		 url(./../fonts/roboto-400.woff) format('woff'),
+		 url(./../fonts/roboto-400.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 400;
+	font-display: block;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url(./../fonts/roboto-100.eot);
+	src: url(./../fonts/roboto-100.eot?#iefix) format('embedded-opentype'),
+		 url(./../fonts/roboto-100.woff) format('woff'),
+		 url(./../fonts/roboto-100.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 100;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url(./../fonts/roboto-300.eot);
+	src: url(./../fonts/roboto-300.eot?#iefix) format('embedded-opentype'),
+		 url(./../fonts/roboto-300.woff) format('woff'),
+		 url(./../fonts/roboto-300.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url(./../fonts/roboto-500.eot);
+	src: url(./../fonts/roboto-500.eot?#iefix) format('embedded-opentype'),
+		 url(./../fonts/roboto-500.woff) format('woff'),
+		 url(./../fonts/roboto-500.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url(./../fonts/roboto-500.eot);
+	src: url(./../fonts/roboto-500.eot?#iefix) format('embedded-opentype'),
+		 url(./../fonts/roboto-500.woff) format('woff'),
+		 url(./../fonts/roboto-500.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url(./../fonts/roboto-700.eot);
+	src: url(./../fonts/roboto-700.eot?#iefix) format('embedded-opentype'),
+		 url(./../fonts/roboto-700.woff) format('woff'),
+		 url(./../fonts/roboto-700.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+
+/* glyph icons */
+
+@font-face {
+	font-family: 'glyphicons';
+	src: url(./../fonts/glyphicons.eot?1);
+	src: url(./../fonts/glyphicons.eot?#iefix) format('embedded-opentype'),
+	url(./../fonts/glyphicons.woff?1) format('woff'),
+	url(./../fonts/glyphicons.ttf?1) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}

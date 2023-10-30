@@ -1,0 +1,18 @@
+AddDefaultCharset utf-8
+
+php_value upload_max_filesize 500M 
+php_value post_max_size 500M
+php_value max_execution_time 108000
+php_value max_input_time 108000
+php_value date.timezone UTC
+php_value memory_limit 2000M
+
+DirectoryIndex index.php
+RewriteEngine On
+RewriteBase /
+Options -ExecCGI -Indexes -Includes +FollowSymlinks
+
+RewriteCond %{REQUEST_URI} !=/server-status
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php [L]

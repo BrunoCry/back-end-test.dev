@@ -1,0 +1,31 @@
+<table>
+    <tr>
+        <th>ID</th>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>E-Mail</th>
+        <th>Phone</th>
+        <th>User plots</th>
+        <th>Last login</th>
+        <th></th>
+    </tr>
+    {section name=i loop=$users}
+    <tr>
+        <td>{ $users[i].id }</td>
+        <td>{ $users[i].first_name }</td>
+        <td>{ $users[i].last_name }</td>
+        <td>{ $users[i].email }</td>
+        <td>{ $users[i].phone }</td>
+        <td>{ $users[i].plots }</td>
+        <td>{ $users[i].last_login }</td>
+        <td class="right_column">
+            <i class="icon icon_ellipsis" onclick="common.menu_popup_toggle(this, event);">
+                <div class="menu_popup">
+                    <div onclick="common.user_edit_window({$users[i].id}, event);">Edit</div>
+                    <div onclick="common.user_delete({$users[i].id}, event)" style="color:red;">Delete</div>
+                </div>
+            </i>
+        </td>
+    </tr>
+    {/section}
+</table>

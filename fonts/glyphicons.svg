@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2023 by original authors @ fontello.com</metadata>
+<defs>
+<font id="glyphicons" horiz-adv-x="1000" >
+<font-face font-family="glyphicons" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="close_btn_new" unicode="&#xe807;" d="M62-150c-16 0-32 5-43 19-24 24-24 65 0 89l876 873c24 24 65 24 86 0 24-24 24-65 0-89l-876-873c-10-14-27-19-43-19z m876 0c-16 0-33 5-43 19l-876 876c-24 24-24 65 0 89s65 24 86 0l876-876c24-24 24-65 0-89-11-14-27-19-43-19z" horiz-adv-x="1000" />
+
+<glyph glyph-name="lupe" unicode="&#xe826;" d="M779 136l199-198-66-66-198 199c-74-59-166-92-260-91-230 0-417 186-417 416 0 230 187 417 417 417 230 0 416-187 416-417 1-94-32-186-91-260z m-93 35c59 60 92 141 92 225 0 179-145 324-324 324-179 0-324-145-324-324 0-179 145-324 324-324 84 0 165 33 225 92l7 7z" horiz-adv-x="1000" />
+
+<glyph glyph-name="dot-3" unicode="&#xe899;" d="M110 460q46 0 78-32t32-78q0-44-32-77t-78-33-78 33-32 77q0 46 32 78t78 32z m350 0q46 0 78-32t32-78q0-44-33-77t-77-33-77 33-33 77q0 46 32 78t78 32z m350 0q46 0 78-32t32-78q0-44-32-77t-78-33-78 33-32 77q0 46 32 78t78 32z" horiz-adv-x="920" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,14 @@
+<div class="modal_head">
+    <i class="icon_close" onclick="common.modal_hide()"></i>
+</div>
+<div class="modal_body">
+    <p>Are you sure to want delete user <b>{$user.first_name} {$user.last_name}</b>?</p>
+    <div class="modal_controls">
+        <div>
+            <div class="btn_modal" onclick="common.user_delete_confirm({$user.user_id});">Delete</div>
+        </div>
+        <div>
+            <div class="btn_modal light" onclick="common.modal_hide();">Cancel</div>
+        </div>
+    </div>
+</div>
